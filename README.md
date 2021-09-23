@@ -25,3 +25,5 @@ S,T=map(str,input().split())
 
 A=list(map(int,input().split()))
 
+## 過去問
+https://kenkoooo.com/atcoder/#/table/
