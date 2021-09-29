@@ -21,9 +21,11 @@ S=input()
 
 S,T=map(str,input().split())
 
-(5)リストで受け取り入力例：A1A2…An
+(5)リストで受け取り
+入力例：1 2 3
 
 A=list(map(int,input().split()))
+[1, 2, 3]
 
 ## 過去問
 https://kenkoooo.com/atcoder/#/table/
