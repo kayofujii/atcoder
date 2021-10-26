@@ -30,11 +30,10 @@ A=list(map(int,input().split()))
 (6)二次元配列でうけとり
 A = [list(map(int, input().split())) for _ in range(H)]
 
->>> A = [list(map(int, input().split())) for _ in range(H)]
 2 1 4
 3 1 3
 6 4 1
->>> A
+
 [[2, 1, 4], [3, 1, 3], [6, 4, 1]]
 
 ## 過去問
