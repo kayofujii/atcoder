@@ -40,5 +40,10 @@ A = [list(map(int, input().split())) for _ in range(H)]
 [[2, 1, 4], [3, 1, 3], [6, 4, 1]]
 ```
 
+(7)数字を配列で受け取る 
+入力例:1234
+出力例:[1,2,3,4]
+X = [int(i) for i in list(input())]
+
 ## 過去問
 https://kenkoooo.com/atcoder/#/table/
