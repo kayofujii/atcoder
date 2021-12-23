@@ -1,0 +1,26 @@
+大会の結果
+
+A
+
+```
+S=list(input())
+print(int(S[0])*int(S[2]))
+```
+
+B
+
+```
+S=list(input())
+T=list(input())
+
+for i in range(len(S)):
+  if i == 0:
+    dif = ord(T[i]) - ord(S[i])
+  else:
+    if dif == ord(T[i]) - ord(S[i]) or 26 == abs(dif) + abs(ord(T[i]) - ord(S[i])):
+      continue
+    else:
+      print('No')
+      exit()
+print('Yes')
+```
